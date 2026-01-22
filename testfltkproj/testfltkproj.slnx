@@ -1,0 +1,7 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="testfltkproj/testfltkproj.vcxproj" Id="9ddf0887-fb96-4487-bb17-042d322fa7b8" />
+</Solution>

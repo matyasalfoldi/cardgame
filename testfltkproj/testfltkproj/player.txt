@@ -1,0 +1,5 @@
+example.png A 1
+example.png B 2
+example.png C 4
+example.png D 2
+example.png E 1

@@ -134,7 +134,7 @@ public:
             player_points_label->copy_label(("Player: " + std::to_string(model->player_points)).c_str());
 
         if (npc_points_label)
-            npc_points_label->copy_label(("NPC: " + std::to_string(model->npc_points)).c_str());
+            npc_points_label->copy_label(("Opponent: " + std::to_string(model->npc_points)).c_str());
 
         if (turn_label)
             turn_label->copy_label(("Turn:" + std::to_string(model->turn)).c_str());
@@ -168,7 +168,7 @@ public:
         main_win->redraw();
         if (model->game_finished)
         {
-            fl_message(("Game finished! Player had: " + std::to_string(model->player_points) + "points, NPC had: " + std::to_string(model->npc_points)).c_str());
+            fl_message(("Game finished! Player had: " + std::to_string(model->player_points) + " points, Opponent had: " + std::to_string(model->npc_points)).c_str());
             back_cb(nullptr, this);
         }
     }
